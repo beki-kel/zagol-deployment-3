@@ -4,7 +4,7 @@ import { StayDataType } from "@/data/types";
 import Pagination from "@/shared/Pagination";
 import Heading2 from "@/shared/Heading2";
 import ExperiencesCard from "@/components/ExperiencesCard";
-import PassengerDetailsModal from "@/app/[locale]/checkout/packageCheckout/page";
+import PassengerDetailsModal from "@/components/checkout/packageCheckout/page";
 
 export interface SectionGridFilterCardProps {
   className?: string;

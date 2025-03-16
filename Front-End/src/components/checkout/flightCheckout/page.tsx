@@ -16,7 +16,7 @@ import awash from "@/images/awashbank.png";
 import zemen from "@/images/zemen bank.png";
 import Image from "next/image";
 import DatePicker from "react-datepicker";
-import DatesRangeInput from "../../(client-components)/(HeroSearchForm2Mobile)/DatesRangeInput";
+import DatesRangeInput from "../../../app/[locale]/(client-components)/(HeroSearchForm2Mobile)/DatesRangeInput";
 interface PassengerDetails {
   firstName: string;
   lastName: string;
