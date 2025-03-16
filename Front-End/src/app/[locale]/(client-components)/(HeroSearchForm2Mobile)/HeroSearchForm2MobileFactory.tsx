@@ -17,7 +17,14 @@ const HeroSearchForm2MobileFactory = () => {
   if (PAGES_REAL_ESTATE.includes(pathname as PathName)) {
     return <HeroSearchForm2RealEstateMobile />;
   }
-  return <HeroSearchForm2Mobile />;
+  return (
+    <HeroSearchForm2Mobile
+      showModal={false}
+      onClose={function (): void {
+        throw new Error("Function not implemented.");
+      }}
+    />
+  );
 };
 
 export default HeroSearchForm2MobileFactory;
